@@ -58,13 +58,13 @@ In view:
 In controller:
 
 ```php
-$this->Foo->onlyUpload('file_field', $this->request->data);
+$file = $this->Foo->onlyUpload('file_field', $this->request->data);
 ```
 
 or
 
 ```php
-$this->Foo->onlyUploads($this->request->data);
+$files = $this->Foo->onlyUploads($this->request->data);
 ```
 
 ## License

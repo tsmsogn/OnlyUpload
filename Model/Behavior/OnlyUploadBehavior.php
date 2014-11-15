@@ -7,7 +7,7 @@ class OnlyUploadBehavior extends ModelBehavior {
 
 	private $__defaults = array(
 		'dir' => TMP,
-		'permission' => '0755',
+		'permission' => 0755,
 		'overwrite' => true
 	);
 

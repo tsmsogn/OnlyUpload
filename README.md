@@ -6,15 +6,7 @@ File upload plugin for CakePHP. Inspired cakephp-upload(https://github.com/joseg
 
 ## Installation
 
-_[GIT Clone]_
-
-In your app directory type:
-
-```shell
-git submodule add -b master git://github.com/tsmsogn/OnlyUpload.git Plugin/OnlyUpload
-git submodule init
-git submodule update
-```
+Put your app plugin directory as `OnlyUpload`.
 
 ### Enable plugin
 

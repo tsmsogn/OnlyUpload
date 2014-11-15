@@ -32,7 +32,7 @@ class Foo extends AppModel {
 			'file_field' => array(
 				'name' => 'new_file_name', // Default uploaded file name
 				'dir' => 'upload_dir', // Default TMP
-				'permission' => '0644' // Default 0755
+				'permission' => 0644 // Default 0755
 			)
 		)
 	);

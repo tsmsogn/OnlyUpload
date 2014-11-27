@@ -84,7 +84,7 @@ class OnlyUploadBehavior extends ModelBehavior {
 		$file = new File($tmpName);
 		$temp = new File($saveAs, true, $filePermission);
 		if (!$temp->write($file->read())) {
-			$results = __d('OnlyUpload', 'Problems in the copy of the file.');
+			$results = __d('only_upload', 'Problems in the copy of the file.');
 		}
 		$file->close();
 		$temp->close();
